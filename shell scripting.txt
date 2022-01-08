@@ -1,0 +1,273 @@
+arjun123@LAPTOP-5515TB74:~$ echo $SHELL
+/bin/bash
+arjun123@LAPTOP-5515TB74:~$ #!/bin/bash
+arjun123@LAPTOP-5515TB74:~$ echo hello world
+hello world
+arjun123@LAPTOP-5515TB74:~$ nano
+arjun123@LAPTOP-5515TB74:~$ cat script.sh
+hi welcome to shell scripting
+arjun123@LAPTOP-5515TB74:~$ ls -l script.sh
+-rw-r--r-- 1 arjun123 arjun123 30 Jan  8 10:15 script.sh
+arjun123@LAPTOP-5515TB74:~$ chmod +x script.sh
+arjun123@LAPTOP-5515TB74:~$ ls -l script.sh
+-rwxr-xr-x 1 arjun123 arjun123 30 Jan  8 10:15 script.sh
+arjun123@LAPTOP-5515TB74:~$ ./script.sh
+./script.sh: line 1: hi: command not found
+arjun123@LAPTOP-5515TB74:~$ nano
+arjun123@LAPTOP-5515TB74:~$ chmod +x names.sh
+arjun123@LAPTOP-5515TB74:~$ ./names.sh
+welcome to shellscripting
+Hashmum                blue              fsam.txt         main.yml              myfilewithvars.sh  selfile.sh
+InitialHashmum         bootcamp          hellofile.txt    mango.sh              myinfo.txt         stdrecord.yml
+_alias                 car.txt           helloscript.sh   mani.txt              names.sh           stld
+abclmpex               demo_func.sh      helloworld.sh    mobile.txt            oddprint.sh        tab.txt
+abdul_orchestrate.yml  details.sh        ifelse.sh        mull.sh               parents            tempy
+abdul_playbook         evenodd.sh        initialgalaxy    multiargumentfunc.sh  phone.sh           tempy2
+abdulrole              exampleread.sh    input.sh         multicontnet..txt     primee.sh          trainees.txt
+args.sh                favour.sh         lappi.sh         multiples.sh          samb.sh            vardemo.sh
+arjun1                 favouritefood.sh  lappi.txt        mycmds.sh             sambi              whiledemo.sh
+arjun_playbook         fibonacci.sh      linux_tweet_app  mycommands.sh         sambi.txt          y
+bash                   fordemo.sh        looparray.sh     myfile                sana_playbook      zing
+bash_aliases.sh        friend.sh         lorry            myfile.sh             script.sh
+bike                   frnd.sh           madhuri          myfile.txt            second.sh
+the list of directories
+./names.sh: line 5: arjun: command not found
+./names.sh: line 6: tadikonda: command not found
+
+arjun123@LAPTOP-5515TB74:~$ cat names.sh
+#!/bin/bash
+echo "welcome to shellscripting"
+ls
+echo "the list of directories"
+name= arjun
+city= tadikonda
+echo "$name $city"
+arjun123@LAPTOP-5515TB74:~$ nano names.sh
+arjun123@LAPTOP-5515TB74:~$ chmod +x names.sh
+arjun123@LAPTOP-5515TB74:~$ ./names.sh
+welcome to shellscripting
+Hashmum                blue              fsam.txt         main.yml              myfilewithvars.sh  selfile.sh
+InitialHashmum         bootcamp          hellofile.txt    mango.sh              myinfo.txt         stdrecord.yml
+_alias                 car.txt           helloscript.sh   mani.txt              names.sh           stld
+abclmpex               demo_func.sh      helloworld.sh    mobile.txt            oddprint.sh        tab.txt
+abdul_orchestrate.yml  details.sh        ifelse.sh        mull.sh               parents            tempy
+abdul_playbook         evenodd.sh        initialgalaxy    multiargumentfunc.sh  phone.sh           tempy2
+abdulrole              exampleread.sh    input.sh         multicontnet..txt     primee.sh          trainees.txt
+args.sh                favour.sh         lappi.sh         multiples.sh          samb.sh            vardemo.sh
+arjun1                 favouritefood.sh  lappi.txt        mycmds.sh             sambi              whiledemo.sh
+arjun_playbook         fibonacci.sh      linux_tweet_app  mycommands.sh         sambi.txt          y
+bash                   fordemo.sh        looparray.sh     myfile                sana_playbook      zing
+bash_aliases.sh        friend.sh         lorry            myfile.sh             script.sh
+bike                   frnd.sh           madhuri          myfile.txt            second.sh
+the list of directories
+./names.sh: line 5: arjun: command not found
+./names.sh: line 6: tadikonda: command not found
+
+arjun123@LAPTOP-5515TB74:~$ chmod 774 names.sh
+arjun123@LAPTOP-5515TB74:~$ ./names.sh
+welcome to shellscripting
+Hashmum                blue              fsam.txt         main.yml              myfilewithvars.sh  selfile.sh
+InitialHashmum         bootcamp          hellofile.txt    mango.sh              myinfo.txt         stdrecord.yml
+_alias                 car.txt           helloscript.sh   mani.txt              names.sh           stld
+abclmpex               demo_func.sh      helloworld.sh    mobile.txt            oddprint.sh        tab.txt
+abdul_orchestrate.yml  details.sh        ifelse.sh        mull.sh               parents            tempy
+abdul_playbook         evenodd.sh        initialgalaxy    multiargumentfunc.sh  phone.sh           tempy2
+abdulrole              exampleread.sh    input.sh         multicontnet..txt     primee.sh          trainees.txt
+args.sh                favour.sh         lappi.sh         multiples.sh          samb.sh            vardemo.sh
+arjun1                 favouritefood.sh  lappi.txt        mycmds.sh             sambi              whiledemo.sh
+arjun_playbook         fibonacci.sh      linux_tweet_app  mycommands.sh         sambi.txt          y
+bash                   fordemo.sh        looparray.sh     myfile                sana_playbook      zing
+bash_aliases.sh        friend.sh         lorry            myfile.sh             script.sh
+bike                   frnd.sh           madhuri          myfile.txt            second.sh
+the list of directories
+./names.sh: line 5: arjun: command not found
+./names.sh: line 6: tadikonda: command not found
+
+arjun123@LAPTOP-5515TB74:~$ nano names.sh
+arjun123@LAPTOP-5515TB74:~$ ./names.sh
+welcome to shellscripting
+Hashmum                blue              fsam.txt         main.yml              myfilewithvars.sh  selfile.sh
+InitialHashmum         bootcamp          hellofile.txt    mango.sh              myinfo.txt         stdrecord.yml
+_alias                 car.txt           helloscript.sh   mani.txt              names.sh           stld
+abclmpex               demo_func.sh      helloworld.sh    mobile.txt            oddprint.sh        tab.txt
+abdul_orchestrate.yml  details.sh        ifelse.sh        mull.sh               parents            tempy
+abdul_playbook         evenodd.sh        initialgalaxy    multiargumentfunc.sh  phone.sh           tempy2
+abdulrole              exampleread.sh    input.sh         multicontnet..txt     primee.sh          trainees.txt
+args.sh                favour.sh         lappi.sh         multiples.sh          samb.sh            vardemo.sh
+arjun1                 favouritefood.sh  lappi.txt        mycmds.sh             sambi              whiledemo.sh
+arjun_playbook         fibonacci.sh      linux_tweet_app  mycommands.sh         sambi.txt          y
+bash                   fordemo.sh        looparray.sh     myfile                sana_playbook      zing
+bash_aliases.sh        friend.sh         lorry            myfile.sh             script.sh
+bike                   frnd.sh           madhuri          myfile.txt            second.sh
+the list of directories
+arjun tadikonda
+arjun123@LAPTOP-5515TB74:~$ nano read.sh
+arjun123@LAPTOP-5515TB74:~$ chmod 774 read.sh
+arjun123@LAPTOP-5515TB74:~$ ./read.sh
+what is your name:
+sambi
+what is your location:
+delhi
+what is your state:
+ap
+arjun123@LAPTOP-5515TB74:~$ apt list --upgradable
+Listing... Done
+accountsservice/focal-updates,focal-security 0.6.55-0ubuntu12~20.04.5 amd64 [upgradable from: 0.6.55-0ubuntu12~20.04.4]
+alsa-ucm-conf/focal-updates 1.2.2-1ubuntu0.11 all [upgradable from: 1.2.2-1ubuntu0.9]
+ansible-core/focal 2.12.1-1ppa~focal all [upgradable from: 2.11.7-1ppa~focal]
+apport/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+bind9-dnsutils/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+bind9-host/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+bind9-libs/focal-updates,focal-security 1:9.16.1-0ubuntu2.9 amd64 [upgradable from: 1:9.16.1-0ubuntu2.8]
+busybox-initramfs/focal-updates,focal-security 1:1.30.1-4ubuntu6.4 amd64 [upgradable from: 1:1.30.1-4ubuntu6.3]
+busybox-static/focal-updates,focal-security 1:1.30.1-4ubuntu6.4 amd64 [upgradable from: 1:1.30.1-4ubuntu6.3]
+ca-certificates/focal-updates,focal-security 20210119~20.04.2 all [upgradable from: 20210119~20.04.1]
+cloud-init/focal-updates 21.4-0ubuntu1~20.04.1 all [upgradable from: 21.2-3-g899bfaa9-0ubuntu2~20.04.1]
+cloud-initramfs-copymods/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+cloud-initramfs-dyn-netconf/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+command-not-found/focal-updates 20.04.5 all [upgradable from: 20.04.4]
+cpio/focal-updates,focal-security 2.13+dfsg-2ubuntu0.3 amd64 [upgradable from: 2.13+dfsg-2]
+curl/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+distro-info-data/focal-updates,focal-security 0.43ubuntu1.9 all [upgradable from: 0.43ubuntu1.6]
+git-man/focal-updates,focal-security 1:2.25.1-1ubuntu3.2 all [upgradable from: 1:2.25.1-1ubuntu3.1]
+libaccountsservice0/focal-updates,focal-security 0.6.55-0ubuntu12~20.04.5 amd64 [upgradable from: 0.6.55-0ubuntu12~20.04.4]
+libasound2-data/focal-updates 1.2.2-2.1ubuntu2.5 all [upgradable from: 1.2.2-2.1ubuntu2.4]
+libasound2/focal-updates 1.2.2-2.1ubuntu2.5 amd64 [upgradable from: 1.2.2-2.1ubuntu2.4]
+libcurl3-gnutls/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+libcurl4/focal-updates,focal-security 7.68.0-1ubuntu2.7 amd64 [upgradable from: 7.68.0-1ubuntu2.6]
+libdrm-amdgpu1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-common/focal-updates 2.4.105-3~20.04.2 all [upgradable from: 2.4.105-3~20.04.1]
+libdrm-intel1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-nouveau2/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm-radeon1/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libdrm2/focal-updates 2.4.105-3~20.04.2 amd64 [upgradable from: 2.4.105-3~20.04.1]
+libgcrypt20/focal-updates,focal-security 1.8.5-5ubuntu1.1 amd64 [upgradable from: 1.8.5-5ubuntu1]
+libgl1-mesa-dri/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libglapi-mesa/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libglx-mesa0/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+libicu66/focal-updates,focal-security 66.1-2ubuntu2.1 amd64 [upgradable from: 66.1-2ubuntu2]
+libllvm12/focal-updates 1:12.0.0-3ubuntu1~20.04.4 amd64 [upgradable from: 1:12.0.0-3ubuntu1~20.04.3]
+libnetplan0/focal-updates 0.103-0ubuntu5~20.04.5 amd64 [upgradable from: 0.102-0ubuntu1~20.04.2]
+libnss-systemd/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libnss3/focal-updates,focal-security 2:3.49.1-1ubuntu1.6 amd64 [upgradable from: 2:3.49.1-1ubuntu1.5]
+libntfs-3g883/focal-updates,focal-security 1:2017.3.23AR.3-3ubuntu1.1 amd64 [upgradable from: 1:2017.3.23AR.3-3ubuntu1]
+libpam-modules-bin/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-modules/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-runtime/focal-updates 1.3.1-5ubuntu4.3 all [upgradable from: 1.3.1-5ubuntu4.2]
+libpam-systemd/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libpam0g/focal-updates 1.3.1-5ubuntu4.3 amd64 [upgradable from: 1.3.1-5ubuntu4.2]
+libprocps8/focal-updates 2:3.3.16-1ubuntu2.3 amd64 [upgradable from: 2:3.3.16-1ubuntu2.2]
+libpulse0/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+libpulsedsp/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+libpython3.8-minimal/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libpython3.8-stdlib/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libpython3.8/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+libseccomp2/focal-updates,focal-security 2.5.1-1ubuntu1~20.04.2 amd64 [upgradable from: 2.5.1-1ubuntu1~20.04.1]
+libssh-4/focal-updates,focal-security 0.9.3-2ubuntu2.2 amd64 [upgradable from: 0.9.3-2ubuntu2.1]
+libssl1.1/focal-updates 1.1.1f-1ubuntu2.10 amd64 [upgradable from: 1.1.1f-1ubuntu2.5]
+libsystemd0/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libtdb1/focal-updates,focal-security 1.4.3-0ubuntu0.20.04.1 amd64 [upgradable from: 1.4.2-3build1]
+libudev1/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+libudisks2-0/focal-updates 2.8.4-1ubuntu2 amd64 [upgradable from: 2.8.4-1ubuntu1]
+linux-base/focal-updates 4.5ubuntu3.7 all [upgradable from: 4.5ubuntu3.6]
+mesa-vulkan-drivers/focal-updates 21.0.3-0ubuntu0.3~20.04.5 amd64 [upgradable from: 21.0.3-0ubuntu0.3~20.04.1]
+netplan.io/focal-updates 0.103-0ubuntu5~20.04.5 amd64 [upgradable from: 0.102-0ubuntu1~20.04.2]
+ntfs-3g/focal-updates,focal-security 1:2017.3.23AR.3-3ubuntu1.1 amd64 [upgradable from: 1:2017.3.23AR.3-3ubuntu1]
+open-vm-tools/focal-updates 2:11.3.0-2ubuntu0~ubuntu20.04.2 amd64 [upgradable from: 2:11.0.5-4]
+openssh-client/focal-updates 1:8.2p1-4ubuntu0.4 amd64 [upgradable from: 1:8.2p1-4ubuntu0.3]
+openssh-server/focal-updates 1:8.2p1-4ubuntu0.4 amd64 [upgradable from: 1:8.2p1-4ubuntu0.3]
+openssh-sftp-server/focal-updates 1:8.2p1-4ubuntu0.4 amd64 [upgradable from: 1:8.2p1-4ubuntu0.3]
+openssl/focal-updates 1.1.1f-1ubuntu2.10 amd64 [upgradable from: 1.1.1f-1ubuntu2.5]
+overlayroot/focal-updates 0.45ubuntu2 all [upgradable from: 0.45ubuntu1]
+procps/focal-updates 2:3.3.16-1ubuntu2.3 amd64 [upgradable from: 2:3.3.16-1ubuntu2.2]
+pulseaudio-utils/focal-updates 1:13.99.1-1ubuntu3.13 amd64 [upgradable from: 1:13.99.1-1ubuntu3.11]
+python-apt-common/focal-updates 2.0.0ubuntu0.20.04.6 all [upgradable from: 2.0.0ubuntu0.20.04.5]
+python3-apport/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+python3-apt/focal-updates 2.0.0ubuntu0.20.04.6 amd64 [upgradable from: 2.0.0ubuntu0.20.04.5]
+python3-commandnotfound/focal-updates 20.04.5 all [upgradable from: 20.04.4]
+python3-problem-report/focal-updates,focal-security 2.20.11-0ubuntu27.21 all [upgradable from: 2.20.11-0ubuntu27.18]
+python3-update-manager/focal-updates 1:20.04.10.9 all [upgradable from: 1:20.04.10.7]
+python3.8-minimal/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+python3.8/focal-updates,focal-security 3.8.10-0ubuntu1~20.04.2 amd64 [upgradable from: 3.8.10-0ubuntu1~20.04]
+rsync/focal-updates 3.1.3-8ubuntu0.1 amd64 [upgradable from: 3.1.3-8]
+snapd/focal-updates 2.51.1+20.04ubuntu2 amd64 [upgradable from: 2.49.2+20.04]
+squashfs-tools/focal-updates,focal-security 1:4.4-1ubuntu0.3 amd64 [upgradable from: 1:4.4-1]
+systemd-sysv/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+systemd-timesyncd/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+systemd/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+tzdata/focal-updates,focal-security 2021e-0ubuntu0.20.04 all [upgradable from: 2021a-0ubuntu0.20.04]
+ubuntu-advantage-tools/focal-updates 27.4.2~20.04.1 amd64 [upgradable from: 27.2.2~20.04.1]
+udev/focal-updates 245.4-4ubuntu3.14 amd64 [upgradable from: 245.4-4ubuntu3.11]
+udisks2/focal-updates 2.8.4-1ubuntu2 amd64 [upgradable from: 2.8.4-1ubuntu1]
+ufw/focal-updates 0.36-6ubuntu1 all [upgradable from: 0.36-6]
+update-manager-core/focal-updates 1:20.04.10.9 all [upgradable from: 1:20.04.10.7]
+update-notifier-common/focal-updates 3.192.30.10 all [upgradable from: 3.192.30.9]
+vim-common/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 all [upgradable from: 2:8.1.2269-1ubuntu5]
+vim-runtime/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 all [upgradable from: 2:8.1.2269-1ubuntu5]
+vim-tiny/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+vim/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+wget/focal-updates 1.20.3-1ubuntu2 amd64 [upgradable from: 1.20.3-1ubuntu1]
+xxd/focal-updates,focal-security 2:8.1.2269-1ubuntu5.4 amd64 [upgradable from: 2:8.1.2269-1ubuntu5]
+arjun123@LAPTOP-5515TB74:~$ nano
+arjun123@LAPTOP-5515TB74:~$ chmod 774 parameter.sh
+arjun123@LAPTOP-5515TB74:~$ ./parameter.sh
+the script title is ./parameter.sh
+the 1st argument is
+the 2nd argument is
+the 3rd argument is
+the 4th argument is
+/$ 1462 is the pid of the script
+/# the total number of parameters in the script 0
+arjun123@LAPTOP-5515TB74:~$ ./parameter.sh 3 4 5 7
+the script title is ./parameter.sh
+the 1st argument is 3
+the 2nd argument is 4
+the 3rd argument is 5
+the 4th argument is 7
+/$ 1463 is the pid of the script
+/# the total number of parameters in the script 4
+arjun123@LAPTOP-5515TB74:~$ nano
+arjun123@LAPTOP-5515TB74:~$ chmod 774 if.sh
+arjun123@LAPTOP-5515TB74:~$ ./if.sh
+enter a animal
+cat
+./if.sh: line 4: if[ cat = cat ]: command not found
+./if.sh: line 5: syntax error near unexpected token `then'
+./if.sh: line 5: `      then echo "i love dogs"'
+arjun123@LAPTOP-5515TB74:~$ ./if.sh
+enter a animal
+dogs
+./if.sh: line 4: if[ dogs = cat ]: command not found
+./if.sh: line 5: syntax error near unexpected token `then'
+./if.sh: line 5: `      then echo "i love dogs"'
+arjun123@LAPTOP-5515TB74:~$ nano if.sh
+arjun123@LAPTOP-5515TB74:~$ chmod 774 if.sh
+arjun123@LAPTOP-5515TB74:~$ ./if.sh
+enter a animal
+cat
+./if.sh: line 4: if[ cat = dog ]: command not found
+./if.sh: line 5: syntax error near unexpected token `then'
+./if.sh: line 5: `      then echo "i love dogs"'
+arjun123@LAPTOP-5515TB74:~$ ./if.sh
+enter a animal
+dog
+./if.sh: line 4: if[ dog = dog ]: command not found
+./if.sh: line 5: syntax error near unexpected token `then'
+./if.sh: line 5: `      then echo "i love dogs"'
+arjun123@LAPTOP-5515TB74:~$ nano
+arjun123@LAPTOP-5515TB74:~$ chmod 774 elif.sh
+arjun123@LAPTOP-5515TB74:~$ ./elif.sh
+enter fruit
+kivi
+./elif.sh: line 11: syntax error: unexpected end of file
+arjun123@LAPTOP-5515TB74:~$ nano elif.sh
+arjun123@LAPTOP-5515TB74:~$ chmod 774 elif.sh
+arjun123@LAPTOP-5515TB74:~$ ./elif.sh
+enter fruit
+kivi
+i like kivi
+arjun123@LAPTOP-5515TB74:~$ ./elif.sh
+enter fruit
+orange
+i like this orange
+arjun123@LAPTOP-5515TB74:~$

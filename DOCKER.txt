@@ -1,0 +1,69 @@
+# syntax=docker/dockerfile:1
+FROM node:12-alpine
+RUN apk add --no-cache python2 g++ make
+WORKDIR /app
+COPY . .
+RUN yarn install --production
+CMD ["node", "src/index.js"]
+
+
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+PS C:\Users\sambi\Downloads\getting-started-master> cd getting-started-master
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master> cd app
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker build -t getting-started .
+[+] Building 30.0s (16/16) FINISHED
+ => [internal] load build definition from Dockerfile                             0.1s
+ => => transferring dockerfile: 32B                                              0.0s
+ => [internal] load .dockerignore                                                0.0s
+ => => transferring context: 2B                                                  0.0s
+ => resolve image config for docker.io/docker/dockerfile:1                      13.5s
+ => [auth] docker/dockerfile:pull token for registry-1.docker.io                 0.0s
+ => [internal] load metadata for docker.io/library/node:12-alpine               13.0s
+
+ => [auth] library/node:pull token for registry-1.docker.io                      0.0s
+ => [internal] load build context                                                2.5s
+ => => transferring context: 596.54kB                                            2.3s
+
+ => [1/5] FROM docker.io/library/node:12-alpine@sha256:05d61228b85c54b5527e74af  0.0s
+ => CACHED [2/5] RUN apk add --no-cache python2 g++ make                         0.0s
+
+ => CACHED [3/5] WORKDIR /app                                                    0.0s
+ => CACHED [4/5] COPY . .                                                        0.0s
+ => CACHED [5/5] RUN yarn install --production                                   0.0s
+ => exporting to image                                                           0.0s
+ => => exporting layers                                                          0.0s
+ => => writing image sha256:1180850b8c290dda1a5159ac9a082915a8ee763bc942d007443  0.0s
+ => => naming to docker.io/library/getting-started                               0.0s
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker run -dp getting-started
+"docker run" requires at least 1 argument.
+See 'docker run --help'.
+
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker run -dp 3002:3000 getting-started
+f96ee3df3eb80d522572cff18e96bff5e6482ac9618783e05384fdc50480511a
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker ps
+CONTAINER ID   IMAGE             COMMAND                  CREATED          STATUS         PORTS                    NAMES
+f96ee3df3eb8   getting-started   "docker-entrypoint.s…"   10 seconds ago   Up 6 seconds   0.0.0.0:3002->3000/tcp   distracted_noether
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker stop
+"docker stop" requires at least 1 argument.
+See 'docker stop --help'.
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+Stop one or more running containers
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker stop f96ee3df3eb8
+f96ee3df3eb8
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> docker rm f96ee3df3eb8  
+f96ee3df3eb8
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> ^C
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> ^C    
+PS C:\Users\sambi\Downloads\getting-started-master\getting-started-master\app> 

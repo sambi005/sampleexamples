@@ -1,0 +1,1667 @@
+arjun123@LAPTOP-5515TB74:~$ mkdir madhuri
+arjun123@LAPTOP-5515TB74:~$ cd madhuri
+arjun123@LAPTOP-5515TB74:~/madhuri$ echo "welcome to devops: > ECE.txt
+> ^C
+arjun123@LAPTOP-5515TB74:~/madhuri$ echo "welcome to devops" > ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ ls
+ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat ECE.txt
+welcome to devops
+arjun123@LAPTOP-5515TB74:~/madhuri$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat ECE.txt
+welcome to devops
+welcome to devops
+arjun123@LAPTOP-5515TB74:~/madhuri$ cd ..
+arjun123@LAPTOP-5515TB74:~$ cd madhuri
+arjun123@LAPTOP-5515TB74:~/madhuri$ touch koti.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ nano koti.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat koti.txt
+#!/bin/bash
+name =virat
+id =18
+location =delhi
+role =Cricketer
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat *.txt
+welcome to devops
+welcome to devops
+#!/bin/bash
+name =virat
+id =18
+location =delhi
+role =Cricketer
+arjun123@LAPTOP-5515TB74:~/madhuri$ mkdir -p foldr/infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri$ ls
+ECE.txt  foldr  koti.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cd foldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls
+infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ cd ..
+arjun123@LAPTOP-5515TB74:~/madhuri$ cd foldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "now,  we are appending this line" > ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ cat ECE.txt
+now,  we are appending this line
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ echo "welcome to devops" >> ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ cat ECE.txt
+now,  we are appending this line
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ less ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls -i
+18034 ECE.txt  18033 infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ chmod 774 ECE.txt
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls -li
+total 8
+18034 -rwxrwxr-- 1 arjun123 arjun123  771 Jan  7 17:32 ECE.txt
+18033 drwxr-xr-x 2 arjun123 arjun123 4096 Jan  7 17:11 infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls -l
+total 8
+-rwxrwxr-- 1 arjun123 arjun123  771 Jan  7 17:32 ECE.txt
+drwxr-xr-x 2 arjun123 arjun123 4096 Jan  7 17:11 infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls -lh
+total 8.0K
+-rwxrwxr-- 1 arjun123 arjun123  771 Jan  7 17:32 ECE.txt
+drwxr-xr-x 2 arjun123 arjun123 4.0K Jan  7 17:11 infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls -al
+total 16
+drwxr-xr-x 3 arjun123 arjun123 4096 Jan  7 17:31 .
+drwxr-xr-x 3 arjun123 arjun123 4096 Jan  7 17:11 ..
+-rwxrwxr-- 1 arjun123 arjun123  771 Jan  7 17:32 ECE.txt
+drwxr-xr-x 2 arjun123 arjun123 4096 Jan  7 17:11 infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ ls
+ECE.txt  infoldr
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ mv ECE.txt madhuri ..
+mv: cannot stat 'madhuri': No such file or directory
+arjun123@LAPTOP-5515TB74:~/madhuri/foldr$ cd ..
+arjun123@LAPTOP-5515TB74:~/madhuri$ ls
+ECE.txt  foldr  koti.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cp ECE.txt koti.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat koti.txt
+now,  we are appending this line
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+arjun123@LAPTOP-5515TB74:~/madhuri$ touch munny.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ mv koti.txt munny.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ cat munny.txt
+now,  we are appending this line
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+welcome to devops
+arjun123@LAPTOP-5515TB74:~/madhuri$ whoami
+arjun123
+arjun123@LAPTOP-5515TB74:~/madhuri$ who
+arjun123@LAPTOP-5515TB74:~/madhuri$ w
+ 17:50:27 up  3:37,  0 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+arjun123@LAPTOP-5515TB74:~/madhuri$ id
+uid=1000(arjun123) gid=1000(arjun123) groups=1000(arjun123),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),117(netdev),1013(docker)
+arjun123@LAPTOP-5515TB74:~/madhuri$ passwd
+Changing password for arjun123.
+Current password:
+New password:
+Retype new password:
+Password unchanged
+New password:
+Retype new password:
+passwd: password updated successfully
+arjun123@LAPTOP-5515TB74:~/madhuri$ passwd
+Changing password for arjun123.
+Current password:
+New password:
+Retype new password:
+Bad: new password is too simple
+New password:
+Retype new password:
+Bad: new password is too simple
+New password:
+Retype new password:
+Password unchanged
+passwd: Authentication token manipulation error
+passwd: password unchanged
+arjun123@LAPTOP-5515TB74:~/madhuri$ cd /
+arjun123@LAPTOP-5515TB74:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+arjun123@LAPTOP-5515TB74:/$ cat etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+arjun123:x:1000:1000:,,,:/home/arjun123:/bin/bash
+arjun:x:1001:1001::/home/arjun:/bin/sh
+balu:x:1002:1003::/home/balu:/bin/sh
+sambi:x:1003:1004::/home/sambi:/bin/sh
+mahesh:x:1004:1005::/home/mahesh:/bin/sh
+koti:x:1005:1006::/home/koti:/bin/sh
+swamy:x:1006:1011::/home/swamy:/bin/sh
+user1:x:1007:1014::/home/user1:/bin/sh
+user2:x:1008:1015::/home/user2:/bin/sh
+user3:x:1009:1016::/home/user3:/bin/sh
+user4:x:1010:1017::/home/user4:/bin/sh
+jagan:x:1011:1018:,,,:/home/jagan:/bin/bash
+chandhu:x:1012:1019:,,,:/home/chandhu:/bin/bash
+mahi:x:1013:1020:,,,:/home/mahi:/bin/bash
+karuna:x:1014:1021:,,,:/home/karuna:/bin/bash
+timjag:x:1015:1022:timjag,,,:/home/timjag:/bin/bash
+myuser:x:1016:1023:,,,:/home/myuser:/bin/bash
+todo:x:1017:1025:todo,,,:/home/todo:/bin/bash
+reddy:x:1018:1026:reddy,,,:/home/reddy:/bin/bash
+shale:x:1019:1027:shale,,,:/home/shale:/bin/bash
+whale:x:1020:1028:whale,,,:/home/whale:/bin/bash
+venky:x:1021:1029::/home/venky:/bin/sh
+balaa:x:1022:1030:balaa,,,:/home/balaa:/bin/bash
+trinadh:x:1023:1031:trinadh,,,:/home/trinadh:/bin/bash
+arjun123@LAPTOP-5515TB74:/$ sudo adduser thor
+[sudo] password for arjun123:
+Adding user `thor' ...
+Adding new group `thor' (1032) ...
+Adding new user `thor' (1024) with group `thor' ...
+Creating home directory `/home/thor' ...
+Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for thor
+Enter the new value, or press ENTER for the default
+        Full Name []: thor
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] y
+arjun123@LAPTOP-5515TB74:/$ su - thor
+Password:
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Jan  7 17:57:52 IST 2022
+
+  System load:  0.0                Processes:             15
+  Usage of /:   0.7% of 250.98GB   Users logged in:       0
+  Memory usage: 21%                IPv4 address for eth0: 172.21.223.171
+  Swap usage:   0%
+
+99 updates can be applied immediately.
+39 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+
+
+This message is shown once a day. To disable it please create the
+/home/thor/.hushlogin file.
+thor@LAPTOP-5515TB74:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+syslog:x:104:110::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:113::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+landscape:x:110:115::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:111:1::/var/cache/pollinate:/bin/false
+arjun123:x:1000:1000:,,,:/home/arjun123:/bin/bash
+arjun:x:1001:1001::/home/arjun:/bin/sh
+balu:x:1002:1003::/home/balu:/bin/sh
+sambi:x:1003:1004::/home/sambi:/bin/sh
+mahesh:x:1004:1005::/home/mahesh:/bin/sh
+koti:x:1005:1006::/home/koti:/bin/sh
+swamy:x:1006:1011::/home/swamy:/bin/sh
+user1:x:1007:1014::/home/user1:/bin/sh
+user2:x:1008:1015::/home/user2:/bin/sh
+user3:x:1009:1016::/home/user3:/bin/sh
+user4:x:1010:1017::/home/user4:/bin/sh
+jagan:x:1011:1018:,,,:/home/jagan:/bin/bash
+chandhu:x:1012:1019:,,,:/home/chandhu:/bin/bash
+mahi:x:1013:1020:,,,:/home/mahi:/bin/bash
+karuna:x:1014:1021:,,,:/home/karuna:/bin/bash
+timjag:x:1015:1022:timjag,,,:/home/timjag:/bin/bash
+myuser:x:1016:1023:,,,:/home/myuser:/bin/bash
+todo:x:1017:1025:todo,,,:/home/todo:/bin/bash
+reddy:x:1018:1026:reddy,,,:/home/reddy:/bin/bash
+shale:x:1019:1027:shale,,,:/home/shale:/bin/bash
+whale:x:1020:1028:whale,,,:/home/whale:/bin/bash
+venky:x:1021:1029::/home/venky:/bin/sh
+balaa:x:1022:1030:balaa,,,:/home/balaa:/bin/bash
+trinadh:x:1023:1031:trinadh,,,:/home/trinadh:/bin/bash
+thor:x:1024:1032:thor,,,:/home/thor:/bin/bash
+thor@LAPTOP-5515TB74:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,arjun123
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:arjun123
+fax:x:21:
+voice:x:22:
+cdrom:x:24:arjun123
+floppy:x:25:arjun123
+tape:x:26:
+sudo:x:27:arjun123
+audio:x:29:arjun123
+dip:x:30:arjun123
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:arjun123
+sasl:x:45:
+plugdev:x:46:arjun123
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:arjun123
+lxd:x:118:
+arjun123:x:1000:
+arjun:x:1001:
+devopstraining:x:1002:
+balu:x:1003:
+sambi:x:1004:
+mahesh:x:1005:
+koti:x:1006:
+ece2017:x:1007:
+ustsres:x:1008:
+teamindia:x:1009:
+biggboss:x:1010:
+swamy:x:1011:
+desttrain:x:1012:
+docker:x:1013:arjun123
+user1:x:1014:
+user2:x:1015:
+user3:x:1016:
+user4:x:1017:
+jagan:x:1018:
+chandhu:x:1019:
+mahi:x:1020:
+karuna:x:1021:
+timjag:x:1022:
+myuser:x:1023:
+devops:x:1024:
+todo:x:1025:
+reddy:x:1026:
+shale:x:1027:
+whale:x:1028:
+venky:x:1029:
+balaa:x:1030:
+trinadh:x:1031:
+thor:x:1032:
+thor@LAPTOP-5515TB74:~$ sudo groupadd outlookgroup
+[sudo] password for thor:
+thor is not in the sudoers file.  This incident will be reported.
+thor@LAPTOP-5515TB74:~$ su - arjun123
+Password:
+arjun123@LAPTOP-5515TB74:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,arjun123
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:arjun123
+fax:x:21:
+voice:x:22:
+cdrom:x:24:arjun123
+floppy:x:25:arjun123
+tape:x:26:
+sudo:x:27:arjun123
+audio:x:29:arjun123
+dip:x:30:arjun123
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:arjun123
+sasl:x:45:
+plugdev:x:46:arjun123
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:arjun123
+lxd:x:118:
+arjun123:x:1000:
+arjun:x:1001:
+devopstraining:x:1002:
+balu:x:1003:
+sambi:x:1004:
+mahesh:x:1005:
+koti:x:1006:
+ece2017:x:1007:
+ustsres:x:1008:
+teamindia:x:1009:
+biggboss:x:1010:
+swamy:x:1011:
+desttrain:x:1012:
+docker:x:1013:arjun123
+user1:x:1014:
+user2:x:1015:
+user3:x:1016:
+user4:x:1017:
+jagan:x:1018:
+chandhu:x:1019:
+mahi:x:1020:
+karuna:x:1021:
+timjag:x:1022:
+myuser:x:1023:
+devops:x:1024:
+todo:x:1025:
+reddy:x:1026:
+shale:x:1027:
+whale:x:1028:
+venky:x:1029:
+balaa:x:1030:
+trinadh:x:1031:
+thor:x:1032:
+arjun123@LAPTOP-5515TB74:~$ sudo groupadd outlookgroup
+arjun123@LAPTOP-5515TB74:~$ cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,arjun123
+tty:x:5:syslog
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:arjun123
+fax:x:21:
+voice:x:22:
+cdrom:x:24:arjun123
+floppy:x:25:arjun123
+tape:x:26:
+sudo:x:27:arjun123
+audio:x:29:arjun123
+dip:x:30:arjun123
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:arjun123
+sasl:x:45:
+plugdev:x:46:arjun123
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+systemd-timesync:x:104:
+crontab:x:105:
+messagebus:x:106:
+input:x:107:
+kvm:x:108:
+render:x:109:
+syslog:x:110:
+tss:x:111:
+uuidd:x:112:
+tcpdump:x:113:
+ssh:x:114:
+landscape:x:115:
+admin:x:116:
+netdev:x:117:arjun123
+lxd:x:118:
+arjun123:x:1000:
+arjun:x:1001:
+devopstraining:x:1002:
+balu:x:1003:
+sambi:x:1004:
+mahesh:x:1005:
+koti:x:1006:
+ece2017:x:1007:
+ustsres:x:1008:
+teamindia:x:1009:
+biggboss:x:1010:
+swamy:x:1011:
+desttrain:x:1012:
+docker:x:1013:arjun123
+user1:x:1014:
+user2:x:1015:
+user3:x:1016:
+user4:x:1017:
+jagan:x:1018:
+chandhu:x:1019:
+mahi:x:1020:
+karuna:x:1021:
+timjag:x:1022:
+myuser:x:1023:
+devops:x:1024:
+todo:x:1025:
+reddy:x:1026:
+shale:x:1027:
+whale:x:1028:
+venky:x:1029:
+balaa:x:1030:
+trinadh:x:1031:
+thor:x:1032:
+outlookgroup:x:1033:
+arjun123@LAPTOP-5515TB74:~$ ls -il
+total 272
+17997 drwxrwxr-x  3 arjun123 arjun123 4096 Jan  5 16:37 Hashmum
+18017 drwxrwxr-x  2 arjun123 arjun123 4096 Jan  5 17:32 InitialHashmum
+97066 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 15:44 _alias
+97057 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 17 15:36 abclmpex
+40970 -rw-r--r--  1 arjun123 arjun123   82 Dec 16 12:16 abdul_orchestrate.yml
+97165 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 16 12:16 abdul_playbook
+97093 drwxr-xr-x 10 arjun123 arjun123 4096 Dec 15 17:49 abdulrole
+97470 -rwxrwxr--  1 arjun123 arjun123   95 Dec 21 06:50 args.sh
+ 1052 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 arjun1
+97294 drwxr-xr-x  5 arjun123 arjun123 4096 Dec 16 15:51 arjun_playbook
+97065 -rw-r--r--  1 arjun123 arjun123   31 Dec 10 15:48 bash
+97068 -rwxrwxr--  1 arjun123 arjun123    0 Dec 10 15:49 bash_aliases.sh
+18023 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:26 bike
+97404 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 12:57 blue
+97475 drwxrwxr-x  3 arjun123 arjun123 4096 Dec 21 07:19 bootcamp
+18027 -rw-r--r--  1 arjun123 arjun123   67 Jan  7 15:18 car.txt
+97089 -rwxrwxr--  1 arjun123 arjun123  149 Dec 13 17:22 demo_func.sh
+97077 -rwxrwxr--  1 arjun123 arjun123  211 Dec 13 16:29 details.sh
+97076 -rwxrwxr--  1 arjun123 arjun123  182 Dec 13 16:30 evenodd.sh
+97063 -rwxrwxr--  1 arjun123 arjun123  101 Dec 10 15:32 exampleread.sh
+97079 -rwxrwxr--  1 arjun123 arjun123  263 Dec 13 15:12 favour.sh
+97074 -rwxrwxr--  1 arjun123 arjun123  279 Dec 13 14:12 favouritefood.sh
+97317 -rwxrwxr--  1 arjun123 arjun123  295 Dec 16 17:50 fibonacci.sh
+97072 -rwxrwxr--  1 arjun123 arjun123  113 Dec 13 15:26 fordemo.sh
+97087 -rwxrwxr--  1 arjun123 arjun123  117 Dec 13 17:58 friend.sh
+40749 -rwxrwxr--  1 arjun123 arjun123  272 Dec 13 15:34 frnd.sh
+40736 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:11 fsam.txt
+97050 -rwxr-xr-x  1 arjun123 arjun123   11 Dec 10 10:50 hellofile.txt
+97070 ---x-w--wx  1 arjun123 arjun123  444 Dec 13 10:41 helloscript.sh
+97071 ---x-w--wx  1 arjun123 arjun123  433 Dec 13 10:56 helloworld.sh
+97472 -rwxrwxr--  1 arjun123 arjun123  140 Dec 21 06:56 ifelse.sh
+40738 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 14:49 initialgalaxy
+97471 -rwxrwxr--  1 arjun123 arjun123  102 Dec 21 06:53 input.sh
+97083 -rwxrwxr--  1 arjun123 arjun123  103 Dec 13 16:04 lappi.sh
+40990 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:13 lappi.txt
+97469 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 27 07:54 linux_tweet_app
+97075 -rwxrwxr--  1 arjun123 arjun123  115 Dec 13 12:32 looparray.sh
+18026 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:19 lorry
+18029 drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 17:43 madhuri
+97058 -rw-r--r--  1 arjun123 arjun123  578 Dec 16 11:07 main.yml
+40986 -rwxrwxr--  1 arjun123 arjun123  282 Dec 13 11:19 mango.sh
+40734 -rw-r--r--  1 arjun123 arjun123    0 Dec  3 09:11 mani.txt
+40991 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 mobile.txt
+97085 -rwxrwxr--  1 arjun123 arjun123   96 Dec 13 17:09 mull.sh
+97088 -rwxrwxr--  1 arjun123 arjun123  101 Dec 13 17:45 multiargumentfunc.sh
+40974 -r--r--r--  1 arjun123 arjun123    0 Dec  9 09:46 multicontnet..txt
+97081 -rwxrwxr--  1 arjun123 arjun123   90 Dec 13 16:27 multiples.sh
+97055 -rwxr-xr-x  1 arjun123 arjun123  119 Dec 10 11:11 mycmds.sh
+97059 -rwxr-xr-x  1 arjun123 arjun123   59 Dec 10 12:15 mycommands.sh
+97056 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 11:14 myfile
+97060 -rwxr-xr-x  1 arjun123 arjun123   44 Dec 10 11:18 myfile.sh
+40743 -rw-r--r--  1 arjun123 arjun123  138 Dec  3 10:01 myfile.txt
+97064 -rwxr-xr-x  1 arjun123 arjun123  114 Dec 10 17:50 myfilewithvars.sh
+40971 -rwxrwxrwx  1 arjun123 arjun123   43 Dec 10 10:23 myinfo.txt
+97080 -rwxrwxr--  1 arjun123 arjun123  170 Dec 13 15:09 oddprint.sh
+40989 drwxr-xr-x  4 arjun123 arjun123 4096 Dec  7 15:40 parents
+97084 -rwxrwxr--  1 arjun123 arjun123   90 Dec 13 15:53 phone.sh
+97382 -rwxrwxr-x  1 arjun123 arjun123  224 Dec 16 17:48 primee.sh
+97082 -rwxrwxr--  1 arjun123 arjun123  210 Dec 13 15:46 samb.sh
+97061 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 12:16 sambi
+40737 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:12 sambi.txt
+97383 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 16 17:57 sana_playbook
+97078 -rwxrwxr--  1 arjun123 arjun123  225 Dec 13 14:53 second.sh
+97051 -rwxr-xr-x  1 arjun123 arjun123   18 Dec 10 10:57 selfile.sh
+40980 -rwxrwxr--  1 arjun123 arjun123  122 Dec 15 17:20 stdrecord.yml
+18028 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:21 stld
+40992 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 tab.txt
+ 1363 drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 15:06 tempy
+40732 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 tempy2
+40733 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 trainees.txt
+97062 -rwxr-xr-x  1 arjun123 arjun123  153 Dec 10 12:31 vardemo.sh
+97073 -rwxrwxr--  1 arjun123 arjun123   70 Dec 13 14:44 whiledemo.sh
+41002 -rw-r--r--  1 arjun123 arjun123    9 Dec 10 10:26 y
+97112 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 28 17:07 zing
+arjun123@LAPTOP-5515TB74:~$ ls -a
+.                 .python_history-00218.tmp  args.sh          favouritefood.sh  linux_tweet_app       myfile             selfile.sh
+..                .python_history-00220.tmp  arjun1           fibonacci.sh      looparray.sh          myfile.sh          stdrecord.yml
+.ansible          .python_history-00286.tmp  arjun_playbook   fordemo.sh        lorry                 myfile.txt         stld
+.aws              .python_history-00297.tmp  bash             friend.sh         madhuri               myfilewithvars.sh  tab.txt
+.azure            .python_history-00352.tmp  bash_aliases.sh  frnd.sh           main.yml              myinfo.txt         tempy
+.bash_aliases.sh  .python_history-00363.tmp  bike             fsam.txt          mango.sh              oddprint.sh        tempy2
+.bash_history     .sudo_as_admin_successful  blue             hellofile.txt     mani.txt              parents            trainees.txt
+.config           Hashmum                    bootcamp         helloscript.sh    mobile.txt            phone.sh           vardemo.sh
+.docker           InitialHashmum             car.txt          helloworld.sh     mull.sh               primee.sh          whiledemo.sh
+.gitconfig        _alias                     demo_func.sh     ifelse.sh         multiargumentfunc.sh  samb.sh            y
+.landscape        abclmpex                   details.sh       initialgalaxy     multicontnet..txt     sambi              zing
+.local            abdul_orchestrate.yml      evenodd.sh       input.sh          multiples.sh          sambi.txt
+.motd_shown       abdul_playbook             exampleread.sh   lappi.sh          mycmds.sh             sana_playbook
+.python_history   abdulrole                  favour.sh        lappi.txt         mycommands.sh         second.sh
+arjun123@LAPTOP-5515TB74:~$ ls -l
+total 272
+drwxrwxr-x  3 arjun123 arjun123 4096 Jan  5 16:37 Hashmum
+drwxrwxr-x  2 arjun123 arjun123 4096 Jan  5 17:32 InitialHashmum
+-rw-r--r--  1 arjun123 arjun123    0 Dec 10 15:44 _alias
+drwxr-xr-x  3 arjun123 arjun123 4096 Dec 17 15:36 abclmpex
+-rw-r--r--  1 arjun123 arjun123   82 Dec 16 12:16 abdul_orchestrate.yml
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec 16 12:16 abdul_playbook
+drwxr-xr-x 10 arjun123 arjun123 4096 Dec 15 17:49 abdulrole
+-rwxrwxr--  1 arjun123 arjun123   95 Dec 21 06:50 args.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 arjun1
+drwxr-xr-x  5 arjun123 arjun123 4096 Dec 16 15:51 arjun_playbook
+-rw-r--r--  1 arjun123 arjun123   31 Dec 10 15:48 bash
+-rwxrwxr--  1 arjun123 arjun123    0 Dec 10 15:49 bash_aliases.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:26 bike
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 12:57 blue
+drwxrwxr-x  3 arjun123 arjun123 4096 Dec 21 07:19 bootcamp
+-rw-r--r--  1 arjun123 arjun123   67 Jan  7 15:18 car.txt
+-rwxrwxr--  1 arjun123 arjun123  149 Dec 13 17:22 demo_func.sh
+-rwxrwxr--  1 arjun123 arjun123  211 Dec 13 16:29 details.sh
+-rwxrwxr--  1 arjun123 arjun123  182 Dec 13 16:30 evenodd.sh
+-rwxrwxr--  1 arjun123 arjun123  101 Dec 10 15:32 exampleread.sh
+-rwxrwxr--  1 arjun123 arjun123  263 Dec 13 15:12 favour.sh
+-rwxrwxr--  1 arjun123 arjun123  279 Dec 13 14:12 favouritefood.sh
+-rwxrwxr--  1 arjun123 arjun123  295 Dec 16 17:50 fibonacci.sh
+-rwxrwxr--  1 arjun123 arjun123  113 Dec 13 15:26 fordemo.sh
+-rwxrwxr--  1 arjun123 arjun123  117 Dec 13 17:58 friend.sh
+-rwxrwxr--  1 arjun123 arjun123  272 Dec 13 15:34 frnd.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:11 fsam.txt
+-rwxr-xr-x  1 arjun123 arjun123   11 Dec 10 10:50 hellofile.txt
+---x-w--wx  1 arjun123 arjun123  444 Dec 13 10:41 helloscript.sh
+---x-w--wx  1 arjun123 arjun123  433 Dec 13 10:56 helloworld.sh
+-rwxrwxr--  1 arjun123 arjun123  140 Dec 21 06:56 ifelse.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 14:49 initialgalaxy
+-rwxrwxr--  1 arjun123 arjun123  102 Dec 21 06:53 input.sh
+-rwxrwxr--  1 arjun123 arjun123  103 Dec 13 16:04 lappi.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:13 lappi.txt
+drwxr-xr-x  3 arjun123 arjun123 4096 Dec 27 07:54 linux_tweet_app
+-rwxrwxr--  1 arjun123 arjun123  115 Dec 13 12:32 looparray.sh
+drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:19 lorry
+drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 17:43 madhuri
+-rw-r--r--  1 arjun123 arjun123  578 Dec 16 11:07 main.yml
+-rwxrwxr--  1 arjun123 arjun123  282 Dec 13 11:19 mango.sh
+-rw-r--r--  1 arjun123 arjun123    0 Dec  3 09:11 mani.txt
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 mobile.txt
+-rwxrwxr--  1 arjun123 arjun123   96 Dec 13 17:09 mull.sh
+-rwxrwxr--  1 arjun123 arjun123  101 Dec 13 17:45 multiargumentfunc.sh
+-r--r--r--  1 arjun123 arjun123    0 Dec  9 09:46 multicontnet..txt
+-rwxrwxr--  1 arjun123 arjun123   90 Dec 13 16:27 multiples.sh
+-rwxr-xr-x  1 arjun123 arjun123  119 Dec 10 11:11 mycmds.sh
+-rwxr-xr-x  1 arjun123 arjun123   59 Dec 10 12:15 mycommands.sh
+-rw-r--r--  1 arjun123 arjun123    0 Dec 10 11:14 myfile
+-rwxr-xr-x  1 arjun123 arjun123   44 Dec 10 11:18 myfile.sh
+-rw-r--r--  1 arjun123 arjun123  138 Dec  3 10:01 myfile.txt
+-rwxr-xr-x  1 arjun123 arjun123  114 Dec 10 17:50 myfilewithvars.sh
+-rwxrwxrwx  1 arjun123 arjun123   43 Dec 10 10:23 myinfo.txt
+-rwxrwxr--  1 arjun123 arjun123  170 Dec 13 15:09 oddprint.sh
+drwxr-xr-x  4 arjun123 arjun123 4096 Dec  7 15:40 parents
+-rwxrwxr--  1 arjun123 arjun123   90 Dec 13 15:53 phone.sh
+-rwxrwxr-x  1 arjun123 arjun123  224 Dec 16 17:48 primee.sh
+-rwxrwxr--  1 arjun123 arjun123  210 Dec 13 15:46 samb.sh
+-rw-r--r--  1 arjun123 arjun123    0 Dec 10 12:16 sambi
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:12 sambi.txt
+drwxr-xr-x  3 arjun123 arjun123 4096 Dec 16 17:57 sana_playbook
+-rwxrwxr--  1 arjun123 arjun123  225 Dec 13 14:53 second.sh
+-rwxr-xr-x  1 arjun123 arjun123   18 Dec 10 10:57 selfile.sh
+-rwxrwxr--  1 arjun123 arjun123  122 Dec 15 17:20 stdrecord.yml
+drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:21 stld
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 tab.txt
+drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 15:06 tempy
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 tempy2
+drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 trainees.txt
+-rwxr-xr-x  1 arjun123 arjun123  153 Dec 10 12:31 vardemo.sh
+-rwxrwxr--  1 arjun123 arjun123   70 Dec 13 14:44 whiledemo.sh
+-rw-r--r--  1 arjun123 arjun123    9 Dec 10 10:26 y
+drwxr-xr-x  3 arjun123 arjun123 4096 Dec 28 17:07 zing
+arjun123@LAPTOP-5515TB74:~$ chmod o-w ECE.txt
+chmod: cannot access 'ECE.txt': No such file or directory
+arjun123@LAPTOP-5515TB74:~$ chmod o-w koti.txt
+chmod: cannot access 'koti.txt': No such file or directory
+arjun123@LAPTOP-5515TB74:~$ chmod o-w zing
+arjun123@LAPTOP-5515TB74:~$ ls -li
+total 272
+17997 drwxrwxr-x  3 arjun123 arjun123 4096 Jan  5 16:37 Hashmum
+18017 drwxrwxr-x  2 arjun123 arjun123 4096 Jan  5 17:32 InitialHashmum
+97066 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 15:44 _alias
+97057 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 17 15:36 abclmpex
+40970 -rw-r--r--  1 arjun123 arjun123   82 Dec 16 12:16 abdul_orchestrate.yml
+97165 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 16 12:16 abdul_playbook
+97093 drwxr-xr-x 10 arjun123 arjun123 4096 Dec 15 17:49 abdulrole
+97470 -rwxrwxr--  1 arjun123 arjun123   95 Dec 21 06:50 args.sh
+ 1052 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 arjun1
+97294 drwxr-xr-x  5 arjun123 arjun123 4096 Dec 16 15:51 arjun_playbook
+97065 -rw-r--r--  1 arjun123 arjun123   31 Dec 10 15:48 bash
+97068 -rwxrwxr--  1 arjun123 arjun123    0 Dec 10 15:49 bash_aliases.sh
+18023 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:26 bike
+97404 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 12:57 blue
+97475 drwxrwxr-x  3 arjun123 arjun123 4096 Dec 21 07:19 bootcamp
+18027 -rw-r--r--  1 arjun123 arjun123   67 Jan  7 15:18 car.txt
+97089 -rwxrwxr--  1 arjun123 arjun123  149 Dec 13 17:22 demo_func.sh
+97077 -rwxrwxr--  1 arjun123 arjun123  211 Dec 13 16:29 details.sh
+97076 -rwxrwxr--  1 arjun123 arjun123  182 Dec 13 16:30 evenodd.sh
+97063 -rwxrwxr--  1 arjun123 arjun123  101 Dec 10 15:32 exampleread.sh
+97079 -rwxrwxr--  1 arjun123 arjun123  263 Dec 13 15:12 favour.sh
+97074 -rwxrwxr--  1 arjun123 arjun123  279 Dec 13 14:12 favouritefood.sh
+97317 -rwxrwxr--  1 arjun123 arjun123  295 Dec 16 17:50 fibonacci.sh
+97072 -rwxrwxr--  1 arjun123 arjun123  113 Dec 13 15:26 fordemo.sh
+97087 -rwxrwxr--  1 arjun123 arjun123  117 Dec 13 17:58 friend.sh
+40749 -rwxrwxr--  1 arjun123 arjun123  272 Dec 13 15:34 frnd.sh
+40736 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:11 fsam.txt
+97050 -rwxr-xr-x  1 arjun123 arjun123   11 Dec 10 10:50 hellofile.txt
+97070 ---x-w--wx  1 arjun123 arjun123  444 Dec 13 10:41 helloscript.sh
+97071 ---x-w--wx  1 arjun123 arjun123  433 Dec 13 10:56 helloworld.sh
+97472 -rwxrwxr--  1 arjun123 arjun123  140 Dec 21 06:56 ifelse.sh
+40738 drwxr-xr-x  2 arjun123 arjun123 4096 Dec 17 14:49 initialgalaxy
+97471 -rwxrwxr--  1 arjun123 arjun123  102 Dec 21 06:53 input.sh
+97083 -rwxrwxr--  1 arjun123 arjun123  103 Dec 13 16:04 lappi.sh
+40990 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:13 lappi.txt
+97469 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 27 07:54 linux_tweet_app
+97075 -rwxrwxr--  1 arjun123 arjun123  115 Dec 13 12:32 looparray.sh
+18026 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:19 lorry
+18029 drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 17:43 madhuri
+97058 -rw-r--r--  1 arjun123 arjun123  578 Dec 16 11:07 main.yml
+40986 -rwxrwxr--  1 arjun123 arjun123  282 Dec 13 11:19 mango.sh
+40734 -rw-r--r--  1 arjun123 arjun123    0 Dec  3 09:11 mani.txt
+40991 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 mobile.txt
+97085 -rwxrwxr--  1 arjun123 arjun123   96 Dec 13 17:09 mull.sh
+97088 -rwxrwxr--  1 arjun123 arjun123  101 Dec 13 17:45 multiargumentfunc.sh
+40974 -r--r--r--  1 arjun123 arjun123    0 Dec  9 09:46 multicontnet..txt
+97081 -rwxrwxr--  1 arjun123 arjun123   90 Dec 13 16:27 multiples.sh
+97055 -rwxr-xr-x  1 arjun123 arjun123  119 Dec 10 11:11 mycmds.sh
+97059 -rwxr-xr-x  1 arjun123 arjun123   59 Dec 10 12:15 mycommands.sh
+97056 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 11:14 myfile
+97060 -rwxr-xr-x  1 arjun123 arjun123   44 Dec 10 11:18 myfile.sh
+40743 -rw-r--r--  1 arjun123 arjun123  138 Dec  3 10:01 myfile.txt
+97064 -rwxr-xr-x  1 arjun123 arjun123  114 Dec 10 17:50 myfilewithvars.sh
+40971 -rwxrwxrwx  1 arjun123 arjun123   43 Dec 10 10:23 myinfo.txt
+97080 -rwxrwxr--  1 arjun123 arjun123  170 Dec 13 15:09 oddprint.sh
+40989 drwxr-xr-x  4 arjun123 arjun123 4096 Dec  7 15:40 parents
+97084 -rwxrwxr--  1 arjun123 arjun123   90 Dec 13 15:53 phone.sh
+97382 -rwxrwxr-x  1 arjun123 arjun123  224 Dec 16 17:48 primee.sh
+97082 -rwxrwxr--  1 arjun123 arjun123  210 Dec 13 15:46 samb.sh
+97061 -rw-r--r--  1 arjun123 arjun123    0 Dec 10 12:16 sambi
+40737 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:12 sambi.txt
+97383 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 16 17:57 sana_playbook
+97078 -rwxrwxr--  1 arjun123 arjun123  225 Dec 13 14:53 second.sh
+97051 -rwxr-xr-x  1 arjun123 arjun123   18 Dec 10 10:57 selfile.sh
+40980 -rwxrwxr--  1 arjun123 arjun123  122 Dec 15 17:20 stdrecord.yml
+18028 drwxr-xr-x  2 arjun123 arjun123 4096 Jan  7 15:21 stld
+40992 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  7 15:11 tab.txt
+ 1363 drwxr-xr-x  3 arjun123 arjun123 4096 Jan  7 15:06 tempy
+40732 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 tempy2
+40733 drwxr-xr-x  2 arjun123 arjun123 4096 Dec  3 09:10 trainees.txt
+97062 -rwxr-xr-x  1 arjun123 arjun123  153 Dec 10 12:31 vardemo.sh
+97073 -rwxrwxr--  1 arjun123 arjun123   70 Dec 13 14:44 whiledemo.sh
+41002 -rw-r--r--  1 arjun123 arjun123    9 Dec 10 10:26 y
+97112 drwxr-xr-x  3 arjun123 arjun123 4096 Dec 28 17:07 zing
+arjun123@LAPTOP-5515TB74:~$ ls -alh | grep folder
+arjun123@LAPTOP-5515TB74:~$ ls -alh | grep foldr
+arjun123@LAPTOP-5515TB74:~$ ls -alh loop
+ls: cannot access 'loop': No such file or directory
+arjun123@LAPTOP-5515TB74:~$ ls -alh | grep sambi
+lrwxrwxrwx  1 arjun123 arjun123   23 Dec  3 12:27 .aws -> /mnt/c/Users/sambi/.aws
+lrwxrwxrwx  1 arjun123 arjun123   25 Dec  3 12:27 .azure -> /mnt/c/Users/sambi/.azure
+-rw-r--r--  1 arjun123 arjun123    0 Dec 10 12:16 sambi
+drwxr-xr-x  2 arjun123 arjun123 4.0K Dec  3 09:12 sambi.txt
+arjun123@LAPTOP-5515TB74:~$ ls -alh sambi
+-rw-r--r-- 1 arjun123 arjun123 0 Dec 10 12:16 sambi
+arjun123@LAPTOP-5515TB74:~$ touch v.txt
+arjun123@LAPTOP-5515TB74:~$ ls
+Hashmum                bash_aliases.sh   fibonacci.sh    lappi.sh         multiargumentfunc.sh  parents        tab.txt
+InitialHashmum         bike              fordemo.sh      lappi.txt        multicontnet..txt     phone.sh       tempy
+_alias                 blue              friend.sh       linux_tweet_app  multiples.sh          primee.sh      tempy2
+abclmpex               bootcamp          frnd.sh         looparray.sh     mycmds.sh             samb.sh        trainees.txt
+abdul_orchestrate.yml  car.txt           fsam.txt        lorry            mycommands.sh         sambi          v.txt
+abdul_playbook         demo_func.sh      hellofile.txt   madhuri          myfile                sambi.txt      vardemo.sh
+abdulrole              details.sh        helloscript.sh  main.yml         myfile.sh             sana_playbook  whiledemo.sh
+args.sh                evenodd.sh        helloworld.sh   mango.sh         myfile.txt            second.sh      y
+arjun1                 exampleread.sh    ifelse.sh       mani.txt         myfilewithvars.sh     selfile.sh     zing
+arjun_playbook         favour.sh         initialgalaxy   mobile.txt       myinfo.txt            stdrecord.yml
+bash                   favouritefood.sh  input.sh        mull.sh          oddprint.sh           stld
+arjun123@LAPTOP-5515TB74:~$ rm v.txt
+arjun123@LAPTOP-5515TB74:~$ ls
+Hashmum                bash_aliases.sh   fibonacci.sh    lappi.sh         multiargumentfunc.sh  parents        tab.txt
+InitialHashmum         bike              fordemo.sh      lappi.txt        multicontnet..txt     phone.sh       tempy
+_alias                 blue              friend.sh       linux_tweet_app  multiples.sh          primee.sh      tempy2
+abclmpex               bootcamp          frnd.sh         looparray.sh     mycmds.sh             samb.sh        trainees.txt
+abdul_orchestrate.yml  car.txt           fsam.txt        lorry            mycommands.sh         sambi          vardemo.sh
+abdul_playbook         demo_func.sh      hellofile.txt   madhuri          myfile                sambi.txt      whiledemo.sh
+abdulrole              details.sh        helloscript.sh  main.yml         myfile.sh             sana_playbook  y
+args.sh                evenodd.sh        helloworld.sh   mango.sh         myfile.txt            second.sh      zing
+arjun1                 exampleread.sh    ifelse.sh       mani.txt         myfilewithvars.sh     selfile.sh
+arjun_playbook         favour.sh         initialgalaxy   mobile.txt       myinfo.txt            stdrecord.yml
+bash                   favouritefood.sh  input.sh        mull.sh          oddprint.sh           stld
+arjun123@LAPTOP-5515TB74:~$ find . - name *.txt
+.
+./myfile.sh
+./.python_history
+./.python_history-00286.tmp
+./bike
+./.azure
+./hellofile.txt
+./mobile.txt
+./vardemo.sh
+./_alias
+./.python_history-00218.tmp
+./.python_history-00220.tmp
+./frnd.sh
+./arjun1
+./helloscript.sh
+./.landscape
+./.landscape/sysinfo.log
+./phone.sh
+./.sudo_as_admin_successful
+./abclmpex
+./abclmpex/galaxyinfor.txt
+./abclmpex/initialgalaxy
+./abclmpex/initialgalaxy/initialgalaxy.txt
+./abclmpex/initialgalaxy/galaxyinfor.txt
+./lorry
+./.gitconfig
+./bootcamp
+./bootcamp/perms.txt
+./bootcamp/temp
+./bootcamp/temp/allperms.txt
+./bootcamp/tempy
+./bootcamp/allperms.txt
+./bootcamp/empty.txt
+./.ansible
+./.ansible/galaxy_cache
+./.ansible/tmp
+./bash
+./.bash_aliases.sh
+./mycmds.sh
+./.python_history-00363.tmp
+./exampleread.sh
+./car.txt
+./favouritefood.sh
+./madhuri
+./madhuri/ECE.txt
+./madhuri/munny.txt
+./madhuri/foldr
+./madhuri/foldr/infoldr
+./evenodd.sh
+./bash_aliases.sh
+./parents
+./parents/mobile.txt
+./parents/ust
+./parents/tab.txt
+./parents/fsam.txt
+./parents/ustglobal
+./parents/sambii.txt
+./parents/model.txt
+./parents/lappi.txt
+./mull.sh
+./.python_history-00352.tmp
+./.bash_history
+./demo_func.sh
+./mani.txt
+./zing
+./zing/initialzing
+./zing/initialzing/zinginfor.txt
+./zing/zinginfor.txt
+./tab.txt
+./myinfo.txt
+./looparray.sh
+./tempy
+./tempy/combo.txt
+./tempy/difficult.txt
+./tempy/foldr1
+./tempy/foldr1/infoldr
+./mycommands.sh
+./.motd_shown
+./mango.sh
+./ifelse.sh
+./.config
+./.config/procps
+./.config/htop
+./.config/htop/htoprc
+./main.yml
+./fsam.txt
+./args.sh
+./.aws
+./lappi.sh
+./abdulrole
+./abdulrole/tasks
+./abdulrole/tasks/main.yml
+./abdulrole/defaults
+./abdulrole/defaults/main.yml
+./abdulrole/meta
+./abdulrole/meta/main.yml
+./abdulrole/tests
+./abdulrole/tests/inventory
+./abdulrole/tests/test.yml
+./abdulrole/README.md
+./abdulrole/templates
+./abdulrole/handlers
+./abdulrole/handlers/main.yml
+./abdulrole/vars
+./abdulrole/vars/main.yml
+./abdulrole/.travis.yml
+./abdulrole/files
+./.docker
+./.docker/scan
+./.docker/scan/config.json
+./.docker/contexts
+./.docker/features.json
+./.docker/config.json
+./.docker/.buildNodeID
+./.docker/.token_seed.lock
+./.docker/run
+./.docker/run/docker-cli-api.sock
+./.docker/.token_seed
+./oddprint.sh
+./sambi
+./abdul_playbook
+./favour.sh
+./myfile.txt
+./linux_tweet_app
+./linux_tweet_app/README.md
+./linux_tweet_app/linux.png
+./linux_tweet_app/.git
+./linux_tweet_app/.git/index
+./linux_tweet_app/.git/HEAD
+./linux_tweet_app/.git/branches
+./linux_tweet_app/.git/packed-refs
+./linux_tweet_app/.git/config
+./linux_tweet_app/.git/description
+./linux_tweet_app/.git/hooks
+./linux_tweet_app/.git/hooks/fsmonitor-watchman.sample
+./linux_tweet_app/.git/hooks/update.sample
+./linux_tweet_app/.git/hooks/pre-applypatch.sample
+./linux_tweet_app/.git/hooks/pre-push.sample
+./linux_tweet_app/.git/hooks/pre-receive.sample
+./linux_tweet_app/.git/hooks/pre-merge-commit.sample
+./linux_tweet_app/.git/hooks/applypatch-msg.sample
+./linux_tweet_app/.git/hooks/pre-commit.sample
+./linux_tweet_app/.git/hooks/prepare-commit-msg.sample
+./linux_tweet_app/.git/hooks/commit-msg.sample
+./linux_tweet_app/.git/hooks/post-update.sample
+./linux_tweet_app/.git/hooks/pre-rebase.sample
+./linux_tweet_app/.git/objects
+./linux_tweet_app/.git/objects/86
+./linux_tweet_app/.git/objects/86/627418c9c9be0684d20525c30ea979a54cc7ab
+./linux_tweet_app/.git/objects/3b
+./linux_tweet_app/.git/objects/3b/41de3f77d71d0a7d975ef239a6c36a2f7fab0a
+./linux_tweet_app/.git/objects/pack
+./linux_tweet_app/.git/objects/77
+./linux_tweet_app/.git/objects/77/71e7e44236c3e6522fc49f1cb5b4408217ec4e
+./linux_tweet_app/.git/objects/3d
+./linux_tweet_app/.git/objects/3d/b7296c9dfa48918c50a897225a3547ae4228d1
+./linux_tweet_app/.git/objects/d5
+./linux_tweet_app/.git/objects/d5/13075e7076a93d828496cf3d9dc8bdb2f65650
+./linux_tweet_app/.git/objects/76
+./linux_tweet_app/.git/objects/76/b830b5bedf9c4c6ec9d5a9f287272397813355
+./linux_tweet_app/.git/objects/ae
+./linux_tweet_app/.git/objects/ae/fdade030302798ebd8a6bb428e521e6c8dfbcb
+./linux_tweet_app/.git/objects/92
+./linux_tweet_app/.git/objects/92/20b61b5b534ea6468d3dcd178e5d2b26fde240
+./linux_tweet_app/.git/objects/f3
+./linux_tweet_app/.git/objects/f3/86394d9f0ca6eceee6d31aa8d597608b7b2089
+./linux_tweet_app/.git/objects/9d
+./linux_tweet_app/.git/objects/9d/ab462186bd7fb7c490d2e0eab7200e7badeb89
+./linux_tweet_app/.git/objects/a7
+./linux_tweet_app/.git/objects/a7/2bf0e3d1f3d43dad7ef07e207f60a33b176ec3
+./linux_tweet_app/.git/objects/info
+./linux_tweet_app/.git/objects/d9
+./linux_tweet_app/.git/objects/d9/ccb60ed779c6feab8f4b201fec770367fb6eba
+./linux_tweet_app/.git/objects/63
+./linux_tweet_app/.git/objects/63/fe1ebd87759f688b87c0a28c42042b83c5cc91
+./linux_tweet_app/.git/objects/65
+./linux_tweet_app/.git/objects/65/1ca39ce3447bc16921ef13a9f3eba5228b15e7
+./linux_tweet_app/.git/info
+./linux_tweet_app/.git/info/exclude
+./linux_tweet_app/.git/refs
+./linux_tweet_app/.git/refs/tags
+./linux_tweet_app/.git/refs/remotes
+./linux_tweet_app/.git/refs/remotes/origin
+./linux_tweet_app/.git/refs/remotes/origin/HEAD
+./linux_tweet_app/.git/refs/heads
+./linux_tweet_app/.git/refs/heads/master
+./linux_tweet_app/.git/logs
+./linux_tweet_app/.git/logs/HEAD
+./linux_tweet_app/.git/logs/refs
+./linux_tweet_app/.git/logs/refs/remotes
+./linux_tweet_app/.git/logs/refs/remotes/origin
+./linux_tweet_app/.git/logs/refs/remotes/origin/HEAD
+./linux_tweet_app/.git/logs/refs/heads
+./linux_tweet_app/.git/logs/refs/heads/master
+./linux_tweet_app/index-original.html
+./linux_tweet_app/Dockerfile
+./linux_tweet_app/index.html
+./linux_tweet_app/index-new.html
+./stdrecord.yml
+./trainees.txt
+./tempy2
+./multiargumentfunc.sh
+./multicontnet..txt
+./y
+./whiledemo.sh
+./helloworld.sh
+./second.sh
+./sambi.txt
+./fordemo.sh
+./Hashmum
+./Hashmum/InitialHashmum
+./Hashmum/InitialHashmum/Hashinfor.txt
+./abdul_orchestrate.yml
+./multiples.sh
+./stld
+./.local
+./.local/share
+./.local/share/nano
+./initialgalaxy
+./initialgalaxy/abclmpex
+./myfilewithvars.sh
+./sana_playbook
+./sana_playbook/install-tomcat
+./sana_playbook/install-tomcat/tasks
+./sana_playbook/install-tomcat/tasks/main.yml
+./sana_playbook/install-tomcat/defaults
+./sana_playbook/install-tomcat/defaults/main.yml
+./sana_playbook/install-tomcat/meta
+./sana_playbook/install-tomcat/meta/main.yml
+./sana_playbook/install-tomcat/tests
+./sana_playbook/install-tomcat/tests/inventory
+./sana_playbook/install-tomcat/tests/test.yml
+./sana_playbook/install-tomcat/README.md
+./sana_playbook/install-tomcat/templates
+./sana_playbook/install-tomcat/handlers
+./sana_playbook/install-tomcat/handlers/main.yml
+./sana_playbook/install-tomcat/vars
+./sana_playbook/install-tomcat/vars/main.yml
+./sana_playbook/install-tomcat/.travis.yml
+./sana_playbook/install-tomcat/files
+./sana_playbook/xyz_orchestrate.yml
+./selfile.sh
+./fibonacci.sh
+./arjun_playbook
+./arjun_playbook/start-tomcat
+./arjun_playbook/start-tomcat/tasks
+./arjun_playbook/start-tomcat/tasks/main.yml
+./arjun_playbook/start-tomcat/defaults
+./arjun_playbook/start-tomcat/defaults/main.yml
+./arjun_playbook/start-tomcat/meta
+./arjun_playbook/start-tomcat/meta/main.yml
+./arjun_playbook/start-tomcat/tests
+./arjun_playbook/start-tomcat/tests/inventory
+./arjun_playbook/start-tomcat/tests/test.yml
+./arjun_playbook/start-tomcat/README.md
+./arjun_playbook/start-tomcat/templates
+./arjun_playbook/start-tomcat/handlers
+./arjun_playbook/start-tomcat/handlers/main.yml
+./arjun_playbook/start-tomcat/vars
+./arjun_playbook/start-tomcat/vars/main.yml
+./arjun_playbook/start-tomcat/.travis.yml
+./arjun_playbook/start-tomcat/files
+./arjun_playbook/main.yml
+./arjun_playbook/install
+./arjun_playbook/install/tasks
+./arjun_playbook/install/tasks/main.yml
+./arjun_playbook/install/defaults
+./arjun_playbook/install/defaults/main.yml
+./arjun_playbook/install/meta
+./arjun_playbook/install/meta/main.yml
+./arjun_playbook/install/tests
+./arjun_playbook/install/tests/inventory
+./arjun_playbook/install/tests/test.yml
+./arjun_playbook/install/README.md
+./arjun_playbook/install/templates
+./arjun_playbook/install/handlers
+./arjun_playbook/install/handlers/main.yml
+./arjun_playbook/install/vars
+./arjun_playbook/install/vars/main.yml
+./arjun_playbook/install/.travis.yml
+./arjun_playbook/install/files
+./arjun_playbook/install-tomcat
+./arjun_playbook/install-tomcat/tasks
+./arjun_playbook/install-tomcat/tasks/main.yml
+./arjun_playbook/install-tomcat/defaults
+./arjun_playbook/install-tomcat/defaults/main.yml
+./arjun_playbook/install-tomcat/meta
+./arjun_playbook/install-tomcat/meta/main.yml
+./arjun_playbook/install-tomcat/tests
+./arjun_playbook/install-tomcat/tests/inventory
+./arjun_playbook/install-tomcat/tests/test.yml
+./arjun_playbook/install-tomcat/README.md
+./arjun_playbook/install-tomcat/templates
+./arjun_playbook/install-tomcat/handlers
+./arjun_playbook/install-tomcat/handlers/main.yml
+./arjun_playbook/install-tomcat/vars
+./arjun_playbook/install-tomcat/vars/main.yml
+./arjun_playbook/install-tomcat/.travis.yml
+./arjun_playbook/install-tomcat/files
+./arjun_playbook/arjun_orchestrate.yml
+./InitialHashmum
+./InitialHashmum/Hashinfor.txt
+./friend.sh
+./details.sh
+./myfile
+./blue
+./primee.sh
+./input.sh
+./lappi.txt
+./lappi.txt/lappi.txt
+./samb.sh
+./.python_history-00297.tmp
+find: ‘-’: No such file or directory
+find: ‘name’: No such file or directory
+car.txt
+fsam.txt
+hellofile.txt
+lappi.txt
+lappi.txt/lappi.txt
+mani.txt
+mobile.txt
+multicontnet..txt
+myfile.txt
+myinfo.txt
+sambi.txt
+tab.txt
+trainees.txt
+arjun123@LAPTOP-5515TB74:~$ find . - type d - name"t"
+.
+./myfile.sh
+./.python_history
+./.python_history-00286.tmp
+./bike
+./.azure
+./hellofile.txt
+./mobile.txt
+./vardemo.sh
+./_alias
+./.python_history-00218.tmp
+./.python_history-00220.tmp
+./frnd.sh
+./arjun1
+./helloscript.sh
+./.landscape
+./.landscape/sysinfo.log
+./phone.sh
+./.sudo_as_admin_successful
+./abclmpex
+./abclmpex/galaxyinfor.txt
+./abclmpex/initialgalaxy
+./abclmpex/initialgalaxy/initialgalaxy.txt
+./abclmpex/initialgalaxy/galaxyinfor.txt
+./lorry
+./.gitconfig
+./bootcamp
+./bootcamp/perms.txt
+./bootcamp/temp
+./bootcamp/temp/allperms.txt
+./bootcamp/tempy
+./bootcamp/allperms.txt
+./bootcamp/empty.txt
+./.ansible
+./.ansible/galaxy_cache
+./.ansible/tmp
+./bash
+./.bash_aliases.sh
+./mycmds.sh
+./.python_history-00363.tmp
+./exampleread.sh
+./car.txt
+./favouritefood.sh
+./madhuri
+./madhuri/ECE.txt
+./madhuri/munny.txt
+./madhuri/foldr
+./madhuri/foldr/infoldr
+./evenodd.sh
+./bash_aliases.sh
+./parents
+./parents/mobile.txt
+./parents/ust
+./parents/tab.txt
+./parents/fsam.txt
+./parents/ustglobal
+./parents/sambii.txt
+./parents/model.txt
+./parents/lappi.txt
+./mull.sh
+./.python_history-00352.tmp
+./.bash_history
+./demo_func.sh
+./mani.txt
+./zing
+./zing/initialzing
+./zing/initialzing/zinginfor.txt
+./zing/zinginfor.txt
+./tab.txt
+./myinfo.txt
+./looparray.sh
+./tempy
+./tempy/combo.txt
+./tempy/difficult.txt
+./tempy/foldr1
+./tempy/foldr1/infoldr
+./mycommands.sh
+./.motd_shown
+./mango.sh
+./ifelse.sh
+./.config
+./.config/procps
+./.config/htop
+./.config/htop/htoprc
+./main.yml
+./fsam.txt
+./args.sh
+./.aws
+./lappi.sh
+./abdulrole
+./abdulrole/tasks
+./abdulrole/tasks/main.yml
+./abdulrole/defaults
+./abdulrole/defaults/main.yml
+./abdulrole/meta
+./abdulrole/meta/main.yml
+./abdulrole/tests
+./abdulrole/tests/inventory
+./abdulrole/tests/test.yml
+./abdulrole/README.md
+./abdulrole/templates
+./abdulrole/handlers
+./abdulrole/handlers/main.yml
+./abdulrole/vars
+./abdulrole/vars/main.yml
+./abdulrole/.travis.yml
+./abdulrole/files
+./.docker
+./.docker/scan
+./.docker/scan/config.json
+./.docker/contexts
+./.docker/features.json
+./.docker/config.json
+./.docker/.buildNodeID
+./.docker/.token_seed.lock
+./.docker/run
+./.docker/run/docker-cli-api.sock
+./.docker/.token_seed
+./oddprint.sh
+./sambi
+./abdul_playbook
+./favour.sh
+./myfile.txt
+./linux_tweet_app
+./linux_tweet_app/README.md
+./linux_tweet_app/linux.png
+./linux_tweet_app/.git
+./linux_tweet_app/.git/index
+./linux_tweet_app/.git/HEAD
+./linux_tweet_app/.git/branches
+./linux_tweet_app/.git/packed-refs
+./linux_tweet_app/.git/config
+./linux_tweet_app/.git/description
+./linux_tweet_app/.git/hooks
+./linux_tweet_app/.git/hooks/fsmonitor-watchman.sample
+./linux_tweet_app/.git/hooks/update.sample
+./linux_tweet_app/.git/hooks/pre-applypatch.sample
+./linux_tweet_app/.git/hooks/pre-push.sample
+./linux_tweet_app/.git/hooks/pre-receive.sample
+./linux_tweet_app/.git/hooks/pre-merge-commit.sample
+./linux_tweet_app/.git/hooks/applypatch-msg.sample
+./linux_tweet_app/.git/hooks/pre-commit.sample
+./linux_tweet_app/.git/hooks/prepare-commit-msg.sample
+./linux_tweet_app/.git/hooks/commit-msg.sample
+./linux_tweet_app/.git/hooks/post-update.sample
+./linux_tweet_app/.git/hooks/pre-rebase.sample
+./linux_tweet_app/.git/objects
+./linux_tweet_app/.git/objects/86
+./linux_tweet_app/.git/objects/86/627418c9c9be0684d20525c30ea979a54cc7ab
+./linux_tweet_app/.git/objects/3b
+./linux_tweet_app/.git/objects/3b/41de3f77d71d0a7d975ef239a6c36a2f7fab0a
+./linux_tweet_app/.git/objects/pack
+./linux_tweet_app/.git/objects/77
+./linux_tweet_app/.git/objects/77/71e7e44236c3e6522fc49f1cb5b4408217ec4e
+./linux_tweet_app/.git/objects/3d
+./linux_tweet_app/.git/objects/3d/b7296c9dfa48918c50a897225a3547ae4228d1
+./linux_tweet_app/.git/objects/d5
+./linux_tweet_app/.git/objects/d5/13075e7076a93d828496cf3d9dc8bdb2f65650
+./linux_tweet_app/.git/objects/76
+./linux_tweet_app/.git/objects/76/b830b5bedf9c4c6ec9d5a9f287272397813355
+./linux_tweet_app/.git/objects/ae
+./linux_tweet_app/.git/objects/ae/fdade030302798ebd8a6bb428e521e6c8dfbcb
+./linux_tweet_app/.git/objects/92
+./linux_tweet_app/.git/objects/92/20b61b5b534ea6468d3dcd178e5d2b26fde240
+./linux_tweet_app/.git/objects/f3
+./linux_tweet_app/.git/objects/f3/86394d9f0ca6eceee6d31aa8d597608b7b2089
+./linux_tweet_app/.git/objects/9d
+./linux_tweet_app/.git/objects/9d/ab462186bd7fb7c490d2e0eab7200e7badeb89
+./linux_tweet_app/.git/objects/a7
+./linux_tweet_app/.git/objects/a7/2bf0e3d1f3d43dad7ef07e207f60a33b176ec3
+./linux_tweet_app/.git/objects/info
+./linux_tweet_app/.git/objects/d9
+./linux_tweet_app/.git/objects/d9/ccb60ed779c6feab8f4b201fec770367fb6eba
+./linux_tweet_app/.git/objects/63
+./linux_tweet_app/.git/objects/63/fe1ebd87759f688b87c0a28c42042b83c5cc91
+./linux_tweet_app/.git/objects/65
+./linux_tweet_app/.git/objects/65/1ca39ce3447bc16921ef13a9f3eba5228b15e7
+./linux_tweet_app/.git/info
+./linux_tweet_app/.git/info/exclude
+./linux_tweet_app/.git/refs
+./linux_tweet_app/.git/refs/tags
+./linux_tweet_app/.git/refs/remotes
+./linux_tweet_app/.git/refs/remotes/origin
+./linux_tweet_app/.git/refs/remotes/origin/HEAD
+./linux_tweet_app/.git/refs/heads
+./linux_tweet_app/.git/refs/heads/master
+./linux_tweet_app/.git/logs
+./linux_tweet_app/.git/logs/HEAD
+./linux_tweet_app/.git/logs/refs
+./linux_tweet_app/.git/logs/refs/remotes
+./linux_tweet_app/.git/logs/refs/remotes/origin
+./linux_tweet_app/.git/logs/refs/remotes/origin/HEAD
+./linux_tweet_app/.git/logs/refs/heads
+./linux_tweet_app/.git/logs/refs/heads/master
+./linux_tweet_app/index-original.html
+./linux_tweet_app/Dockerfile
+./linux_tweet_app/index.html
+./linux_tweet_app/index-new.html
+./stdrecord.yml
+./trainees.txt
+./tempy2
+./multiargumentfunc.sh
+./multicontnet..txt
+./y
+./whiledemo.sh
+./helloworld.sh
+./second.sh
+./sambi.txt
+./fordemo.sh
+./Hashmum
+./Hashmum/InitialHashmum
+./Hashmum/InitialHashmum/Hashinfor.txt
+./abdul_orchestrate.yml
+./multiples.sh
+./stld
+./.local
+./.local/share
+./.local/share/nano
+./initialgalaxy
+./initialgalaxy/abclmpex
+./myfilewithvars.sh
+./sana_playbook
+./sana_playbook/install-tomcat
+./sana_playbook/install-tomcat/tasks
+./sana_playbook/install-tomcat/tasks/main.yml
+./sana_playbook/install-tomcat/defaults
+./sana_playbook/install-tomcat/defaults/main.yml
+./sana_playbook/install-tomcat/meta
+./sana_playbook/install-tomcat/meta/main.yml
+./sana_playbook/install-tomcat/tests
+./sana_playbook/install-tomcat/tests/inventory
+./sana_playbook/install-tomcat/tests/test.yml
+./sana_playbook/install-tomcat/README.md
+./sana_playbook/install-tomcat/templates
+./sana_playbook/install-tomcat/handlers
+./sana_playbook/install-tomcat/handlers/main.yml
+./sana_playbook/install-tomcat/vars
+./sana_playbook/install-tomcat/vars/main.yml
+./sana_playbook/install-tomcat/.travis.yml
+./sana_playbook/install-tomcat/files
+./sana_playbook/xyz_orchestrate.yml
+./selfile.sh
+./fibonacci.sh
+./arjun_playbook
+./arjun_playbook/start-tomcat
+./arjun_playbook/start-tomcat/tasks
+./arjun_playbook/start-tomcat/tasks/main.yml
+./arjun_playbook/start-tomcat/defaults
+./arjun_playbook/start-tomcat/defaults/main.yml
+./arjun_playbook/start-tomcat/meta
+./arjun_playbook/start-tomcat/meta/main.yml
+./arjun_playbook/start-tomcat/tests
+./arjun_playbook/start-tomcat/tests/inventory
+./arjun_playbook/start-tomcat/tests/test.yml
+./arjun_playbook/start-tomcat/README.md
+./arjun_playbook/start-tomcat/templates
+./arjun_playbook/start-tomcat/handlers
+./arjun_playbook/start-tomcat/handlers/main.yml
+./arjun_playbook/start-tomcat/vars
+./arjun_playbook/start-tomcat/vars/main.yml
+./arjun_playbook/start-tomcat/.travis.yml
+./arjun_playbook/start-tomcat/files
+./arjun_playbook/main.yml
+./arjun_playbook/install
+./arjun_playbook/install/tasks
+./arjun_playbook/install/tasks/main.yml
+./arjun_playbook/install/defaults
+./arjun_playbook/install/defaults/main.yml
+./arjun_playbook/install/meta
+./arjun_playbook/install/meta/main.yml
+./arjun_playbook/install/tests
+./arjun_playbook/install/tests/inventory
+./arjun_playbook/install/tests/test.yml
+./arjun_playbook/install/README.md
+./arjun_playbook/install/templates
+./arjun_playbook/install/handlers
+./arjun_playbook/install/handlers/main.yml
+./arjun_playbook/install/vars
+./arjun_playbook/install/vars/main.yml
+./arjun_playbook/install/.travis.yml
+./arjun_playbook/install/files
+./arjun_playbook/install-tomcat
+./arjun_playbook/install-tomcat/tasks
+./arjun_playbook/install-tomcat/tasks/main.yml
+./arjun_playbook/install-tomcat/defaults
+./arjun_playbook/install-tomcat/defaults/main.yml
+./arjun_playbook/install-tomcat/meta
+./arjun_playbook/install-tomcat/meta/main.yml
+./arjun_playbook/install-tomcat/tests
+./arjun_playbook/install-tomcat/tests/inventory
+./arjun_playbook/install-tomcat/tests/test.yml
+./arjun_playbook/install-tomcat/README.md
+./arjun_playbook/install-tomcat/templates
+./arjun_playbook/install-tomcat/handlers
+./arjun_playbook/install-tomcat/handlers/main.yml
+./arjun_playbook/install-tomcat/vars
+./arjun_playbook/install-tomcat/vars/main.yml
+./arjun_playbook/install-tomcat/.travis.yml
+./arjun_playbook/install-tomcat/files
+./arjun_playbook/arjun_orchestrate.yml
+./InitialHashmum
+./InitialHashmum/Hashinfor.txt
+./friend.sh
+./details.sh
+./myfile
+./blue
+./primee.sh
+./input.sh
+./lappi.txt
+./lappi.txt/lappi.txt
+./samb.sh
+./.python_history-00297.tmp
+find: ‘-’: No such file or directory
+find: ‘type’: No such file or directory
+find: ‘d’: No such file or directory
+find: ‘-’: No such file or directory
+find: ‘namet’: No such file or directory
+arjun123@LAPTOP-5515TB74:~$ cd madhuri
+arjun123@LAPTOP-5515TB74:~/madhuri$ t.txt
+t.txt: command not found
+arjun123@LAPTOP-5515TB74:~/madhuri$ touch t.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ ls
+ECE.txt  foldr  munny.txt  t.txt
+arjun123@LAPTOP-5515TB74:~/madhuri$ find . - name t.txt - delete
+.
+./t.txt
+./ECE.txt
+./munny.txt
+./foldr
+./foldr/infoldr
+find: ‘-’: No such file or directory
+find: ‘name’: No such file or directory
+t.txt
+find: ‘-’: No such file or directory
+find: ‘delete’: No such file or directory
+arjun123@LAPTOP-5515TB74:~/madhuri$ find . -name t.txt -delete
+arjun123@LAPTOP-5515TB74:~/madhuri$ free
+              total        used        free      shared  buff/cache   available
+Mem:        3842556      716744     1248596      374396     1877216     2567988
+Swap:       1048576           0     1048576
+arjun123@LAPTOP-5515TB74:~/madhuri$ uptime
+ 18:13:30 up  4:00,  0 users,  load average: 0.00, 0.00, 0.00

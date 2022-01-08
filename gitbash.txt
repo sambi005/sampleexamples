@@ -1,0 +1,136 @@
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git config --global user.name "sambi"
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git config --global user.name
+sambi
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git config --global user.email "sambismart005@gmail.com"
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git config --global user.email
+sambismart005@gmail.com
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git init
+Initialized empty Git repository in C:/Users/sambi/OneDrive/Desktop/statuss/.git/
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git add .
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git commit -m "projectversion 1.0"
+[master (root-commit) 01c70a3] projectversion 1.0
+ 2 files changed, 4 insertions(+)
+ create mode 100644 jerry.txt
+ create mode 100644 tom.txt
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git log
+commit 01c70a355a90fd60eb64cf3397cf113c4b1d96e7 (HEAD -> master)
+Author: sambi <sambismart005@gmail.com>
+Date:   Sat Jan 8 15:40:24 2022 +0530
+
+    projectversion 1.0
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git log -p
+commit 01c70a355a90fd60eb64cf3397cf113c4b1d96e7 (HEAD -> master)
+Author: sambi <sambismart005@gmail.com>
+Date:   Sat Jan 8 15:40:24 2022 +0530
+
+    projectversion 1.0
+
+diff --git a/jerry.txt b/jerry.txt
+new file mode 100644
+index 0000000..5893b45
+--- /dev/null
++++ b/jerry.txt
+@@ -0,0 +1,3 @@
++lkerglerjg;lermglermg
++jdfgklrngklsdgnlsdngs
++lknksnglsgmlsmgsmbsms.t
+diff --git a/tom.txt b/tom.txt
+new file mode 100644
+index 0000000..fa226b0
+--- /dev/null
++++ b/tom.txt
+@@ -0,0 +1 @@
++iwehfqierjrqklewfnl;ernfl;erjglqengrl;erng;e
+\ No newline at end of file
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git log --stat --summary
+commit 01c70a355a90fd60eb64cf3397cf113c4b1d96e7 (HEAD -> master)
+Author: sambi <sambismart005@gmail.com>
+Date:   Sat Jan 8 15:40:24 2022 +0530
+
+    projectversion 1.0
+
+ jerry.txt | 3 +++
+ tom.txt   | 1 +
+ 2 files changed, 4 insertions(+)
+ create mode 100644 jerry.txt
+ create mode 100644 tom.txt
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git branch experimental
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git branch
+  experimental
+* master
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git switch experimental
+Switched to branch 'experimental'
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (experimental)
+$ git merge experimental
+Already up to date.
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (experimental)
+$ git switch master
+Switched to branch 'master'
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git diff
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ gitk
+
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git push https://github.com/sambi005/sambi-github.git
+To https://github.com/sambi005/sambi-github.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/sambi005/sambi-github.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+sambi@LAPTOP-5515TB74 MINGW64 ~/onedrive/desktop/statuss (master)
+$ git push https://github.com/sambi005/sambi005.git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 345 bytes | 172.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sambi005/sambi005.git
+ * [new branch]      master -> master
